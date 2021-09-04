@@ -6,8 +6,9 @@ console.log("Second");
  */
 let seconds = 0;
 const timeId = setInterval(() => {
-  seconds++;
-  console.log(seconds);
+  //   seconds++;
+  //   console.log(seconds++);
+  console.log(++seconds);
   if (seconds > 20) {
     clearInterval(timeId);
   }
