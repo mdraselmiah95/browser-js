@@ -9,3 +9,6 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
   .then((json) => console.log(json));
 console.log(3333333);
 console.log(4444444);
+for (let i = 0; i < 200; i++) {
+  console.log(i);
+}
